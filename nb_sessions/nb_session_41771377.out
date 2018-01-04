@@ -1,0 +1,55 @@
+WARNING: Anaconda3/5.0.0.1 cannot be loaded due to a conflict.
+HINT: Might try "module unload Anaconda3" first.
+Processing /project2/macs60000/lucem_illud
+Requirement already up-to-date: numpy in /home/linzhuoli/.local/lib/python3.5/site-packages (from lucem-illud==0.0.4)
+Requirement already up-to-date: requests in /software/Anaconda3-4.1.1-el6-x86_64/lib/python3.5/site-packages (from lucem-illud==0.0.4)
+Requirement already up-to-date: pandas in /home/linzhuoli/.local/lib/python3.5/site-packages (from lucem-illud==0.0.4)
+Requirement already up-to-date: python-docx in /home/linzhuoli/.local/lib/python3.5/site-packages (from lucem-illud==0.0.4)
+Requirement already up-to-date: pillow in /home/linzhuoli/.local/lib/python3.5/site-packages (from lucem-illud==0.0.4)
+Requirement already up-to-date: pdfminer2 in /home/linzhuoli/.local/lib/python3.5/site-packages (from lucem-illud==0.0.4)
+Requirement already up-to-date: GitPython in /home/linzhuoli/.local/lib/python3.5/site-packages (from lucem-illud==0.0.4)
+Requirement already up-to-date: chardet<3.1.0,>=3.0.2 in /software/Anaconda3-4.1.1-el6-x86_64/lib/python3.5/site-packages (from requests->lucem-illud==0.0.4)
+Requirement already up-to-date: idna<2.7,>=2.5 in /software/Anaconda3-4.1.1-el6-x86_64/lib/python3.5/site-packages (from requests->lucem-illud==0.0.4)
+Requirement already up-to-date: urllib3<1.23,>=1.21.1 in /software/Anaconda3-4.1.1-el6-x86_64/lib/python3.5/site-packages (from requests->lucem-illud==0.0.4)
+Requirement already up-to-date: certifi>=2017.4.17 in /software/Anaconda3-4.1.1-el6-x86_64/lib/python3.5/site-packages (from requests->lucem-illud==0.0.4)
+Requirement already up-to-date: python-dateutil>=2 in /software/Anaconda3-4.1.1-el6-x86_64/lib/python3.5/site-packages (from pandas->lucem-illud==0.0.4)
+Requirement already up-to-date: pytz>=2011k in /software/Anaconda3-4.1.1-el6-x86_64/lib/python3.5/site-packages (from pandas->lucem-illud==0.0.4)
+Requirement already up-to-date: lxml>=2.3.2 in /software/Anaconda3-4.1.1-el6-x86_64/lib/python3.5/site-packages (from python-docx->lucem-illud==0.0.4)
+Requirement already up-to-date: six in /software/Anaconda3-4.1.1-el6-x86_64/lib/python3.5/site-packages (from pdfminer2->lucem-illud==0.0.4)
+Requirement already up-to-date: gitdb2>=2.0.0 in /home/linzhuoli/.local/lib/python3.5/site-packages (from GitPython->lucem-illud==0.0.4)
+Requirement already up-to-date: smmap2>=2.0.0 in /software/Anaconda3-4.1.1-el6-x86_64/lib/python3.5/site-packages (from gitdb2>=2.0.0->GitPython->lucem-illud==0.0.4)
+Installing collected packages: lucem-illud
+  Found existing installation: lucem-illud 0.0.4
+    Uninstalling lucem-illud-0.0.4:
+      Successfully uninstalled lucem-illud-0.0.4
+  Running setup.py install for lucem-illud: started
+    Running setup.py install for lucem-illud: finished with status 'done'
+Successfully installed lucem-illud-0.0.4
+  jupyter notebook --no-browser --ip=${HOST_IP} --port $PORT_NUM 
+[I 11:55:36.726 NotebookApp] [nb_conda_kernels] enabled, 3 kernels found
+[I 11:55:47.897 NotebookApp] [nb_anacondacloud] enabled
+[I 11:55:48.013 NotebookApp] [nb_conda] enabled
+[I 11:55:48.954 NotebookApp] ✓ nbpresent HTML export ENABLED
+[W 11:55:48.957 NotebookApp] ✗ nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[I 11:55:48.963 NotebookApp] Serving notebooks from local directory: /home/linzhuoli/content-analysis-2018
+[I 11:55:48.963 NotebookApp] 0 active kernels
+[I 11:55:48.963 NotebookApp] The Jupyter Notebook is running at:
+[I 11:55:48.963 NotebookApp] http://10.50.221.11:19274/?token=fdeac6162cc4d6a108f7ed76a6c8d35605e68b51b0ccf135
+[I 11:55:48.963 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:55:48.966 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://10.50.221.11:19274/?token=fdeac6162cc4d6a108f7ed76a6c8d35605e68b51b0ccf135
+[I 11:56:16.154 NotebookApp] 302 GET /?token=fdeac6162cc4d6a108f7ed76a6c8d35605e68b51b0ccf135 (10.150.73.200) 1.41ms
+[W 11:56:24.273 NotebookApp] Notebook Week-1/1-intro.ipynb is not trusted
+[W 11:56:26.271 NotebookApp] 404 GET /notebooks/Week-1/lolcat.gif (10.150.73.200): No such file or directory: Week-1/lolcat.gif
+[W 11:56:26.287 NotebookApp] 404 GET /notebooks/Week-1/lolcat.gif (10.150.73.200) 17.17ms referer=http://10.50.221.11:19274/notebooks/Week-1/1-intro.ipynb
+[I 11:56:26.417 NotebookApp] Kernel started: 53f2058e-7429-4f48-8c74-58b1a052513b
+[I 11:56:29.587 NotebookApp] Adapting to protocol v5.1 for kernel 53f2058e-7429-4f48-8c74-58b1a052513b
+[I 11:56:37.831 NotebookApp] Starting buffering for 53f2058e-7429-4f48-8c74-58b1a052513b:8B9859B02B84410087CA290AF106C1C3
+[I 11:56:38.951 NotebookApp] Kernel restarted: 53f2058e-7429-4f48-8c74-58b1a052513b
+[I 11:56:41.668 NotebookApp] Adapting to protocol v5.1 for kernel 53f2058e-7429-4f48-8c74-58b1a052513b
+[I 11:56:41.669 NotebookApp] Restoring connection for 53f2058e-7429-4f48-8c74-58b1a052513b:8B9859B02B84410087CA290AF106C1C3
+[I 11:56:41.669 NotebookApp] Replaying 14 buffered messages
+[I 11:58:25.878 NotebookApp] Saving file at /Week-1/1-intro.ipynb
